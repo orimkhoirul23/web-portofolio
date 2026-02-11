@@ -1,2 +1,2 @@
-:HL["https://orimkhoirul23.github.io/web-portofolio/_next/static/chunks/4b2585e407d64b27.css","style"]
-0:{"buildId":"PpR5OGyg46jPxATaZ84eG","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+:HL["/web-portofolio/_next/static/chunks/4b2585e407d64b27.css","style"]
+0:{"buildId":"rjwz7Sqnmmj248iYjNygl","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

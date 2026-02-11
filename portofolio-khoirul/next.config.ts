@@ -18,7 +18,7 @@ const nextConfig: NextConfig = {
   // Jika di Production, tambahkan nama repo di depan link resource
   // Jika di Localhost, biarkan kosong agar tetap jalan normal
   basePath: isProd ? `/${repoName}` : "",
-  assetPrefix: isProd ? `/${repoName}/` : "",
+  assetPrefix: isProd ? `https://orimkhoirul23.github.io/${repoName}/` : "",
 
   // Opsional: Membantu navigasi antar halaman di static export
   trailingSlash: true,

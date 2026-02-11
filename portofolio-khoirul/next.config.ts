@@ -1,11 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
-  basePath: "/web-portofolio",
-  images: {
-    unoptimized: true,
-  },
+  output: "export", // Wajib untuk GitHub Pages
 };
 
 export default nextConfig;

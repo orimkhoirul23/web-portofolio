@@ -14,7 +14,7 @@ import {
   ArrowRight,
   GraduationCap, // Pastikan import icon ini ada
 } from "lucide-react";
-
+const basePath = process.env.NODE_ENV === "production" ? "/web-portofolio" : "";
 export default function Portfolio() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -279,7 +279,7 @@ export default function Portfolio() {
           <div className="pt-2">
             {/* TOMBOL DOWNLOAD PDF (Sudah di-link ke file public) */}
             <a
-              href="/cv-mochammad-khoirullutfansyah.pdf"
+              href={`${basePath}/CV_Mochammad Khoirullutfansyah_New.pdf`}
               download="CV_Mochammad_Khoirullutfansyah.pdf"
               className="flex items-center gap-2 bg-white text-neutral-950 px-8 py-3 rounded-full hover:bg-neutral-200 transition-all font-medium text-sm shadow-[0_0_20px_rgba(255,255,255,0.1)] w-fit"
             >

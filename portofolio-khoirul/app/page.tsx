@@ -173,7 +173,7 @@ export default function Portfolio() {
   };
 
   return (
-    <main className="min-h-screen bg-neutral-950 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-neutral-800/40 via-neutral-950 to-neutral-950 text-neutral-300 font-sans selection:bg-white selection:text-black">
+    <main className="min-h-screen bg-neutral-950 bg-[radial-gradient(ellipse_at_top,var(--tw-gradient-stops))] from-neutral-800/40 via-neutral-950 to-neutral-950 text-neutral-300 font-sans selection:bg-white selection:text-black">
       {/* --- NAVBAR --- */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-neutral-950/70 backdrop-blur-md border-b border-neutral-800/50">
         <div className="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
@@ -306,7 +306,7 @@ export default function Portfolio() {
               key={idx}
               className="relative border-l-2 border-neutral-800 pl-8 ml-2"
             >
-              <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-neutral-500 border-4 border-neutral-950 shadow-[0_0_10px_rgba(255,255,255,0.2)]"></div>
+              <div className="absolute -left-2.25 top-0 w-4 h-4 rounded-full bg-neutral-500 border-4 border-neutral-950 shadow-[0_0_10px_rgba(255,255,255,0.2)]"></div>
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-3">
                 <div>
                   <h4 className="text-xl font-bold text-white group-hover:text-neutral-200 transition-colors">

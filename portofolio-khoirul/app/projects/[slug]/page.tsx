@@ -97,7 +97,7 @@ export default async function ProjectDetail({
   }
 
   return (
-    <main className="min-h-screen bg-neutral-950 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-neutral-800/40 via-neutral-950 to-neutral-950 text-neutral-300 font-sans selection:bg-white selection:text-black">
+    <main className="min-h-screen bg-neutral-950 bg-[radial-gradient(ellipse_at_top,var(--tw-gradient-stops))] from-neutral-800/40 via-neutral-950 to-neutral-950 text-neutral-300 font-sans selection:bg-white selection:text-black">
       {/* NAVBAR */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-neutral-950/70 backdrop-blur-md border-b border-neutral-800/50">
         <div className="max-w-4xl mx-auto px-6 h-16 flex items-center">

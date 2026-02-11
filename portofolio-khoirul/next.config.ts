@@ -6,6 +6,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: "/web-portofolio", // Ganti dengan nama repository GitHub Anda
+  assetPrefix: "/web-portofolio/",
 };
 
 export default nextConfig;

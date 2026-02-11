@@ -7,9 +7,9 @@ const nextConfig: NextConfig = {
   output: "export",
   images: { unoptimized: true },
 
-  // Mengarahkan Next.js agar selalu mencari file di dalam sub-folder repo
+  // Pastikan tidak ada typo pada nama repo
   basePath: isProd ? `/${repoName}` : "",
-  assetPrefix: isProd ? `https://orimkhoirul23.github.io/${repoName}/` : "",
+  assetPrefix: isProd ? `/${repoName}/` : "",
 
   trailingSlash: true,
 };
